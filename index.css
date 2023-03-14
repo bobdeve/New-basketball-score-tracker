@@ -1,0 +1,89 @@
+@font-face{
+    font-family: 'digital';
+    src: url(Technology-Bold.ttf);
+}
+body {
+    margin: 0;
+    text-align: center;
+    background-color: blueviolet;
+    font-family: "digital";
+}
+#vs{
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 150px;
+    
+}
+#stopwatch{
+    background: blueviolet;
+}
+#rsth{
+    margin: 10px auto;
+}
+#rstg{
+    margin: 10px auto;
+}
+#display{
+    color: red;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 40px;
+   
+    background-size: cover;
+    background-color: #780000; 
+}
+h1{
+    background-color: black;
+    color:red;
+    font-weight: 400;
+    font-size: 90px;
+    padding: 5px 20px;
+    margin: 15px 10px;
+    line-height: 127px;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    color: #F94F6D;
+
+
+    
+}
+h2{
+    font-family: sans-serif;
+}
+h3{
+    font-size: 30px;
+    margin: 1px 20px;
+    color: #fff;
+  font-family: 'Verdana', sans-serif;
+}
+button{
+    background: none;
+    border: 2px solid wheat;
+    color: white;
+    font-family: 'digital';
+    
+    background-color: #1c87c9;
+   color: #eeeeee;
+   cursor: pointer;
+    animation: glowing 1300ms infinite;
+  
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #ff006e;
+    box-shadow: 0 0 3px #ff006e;
+  }
+  50% {
+    background-color: #ff006e;
+    box-shadow: 0 0 10px #ff006e;
+  }
+  100% {
+    background-color: #3a86ff;
+    box-shadow: 0 0 3px #2ba805;
+  }
+}
